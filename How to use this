@@ -10,3 +10,5 @@ pip install -r requirements.txt
 
 export GITHUB_TOKEN=YOUR_TOKEN   # or pass --token
 python -m github_app_scanner
+
+This will output a table of app installations and a simple risk label using only Python and the public GitHub REST API endpoints. 1 3 4
