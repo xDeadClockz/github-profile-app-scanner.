@@ -1,0 +1,13 @@
+
+***
+
+## Package layout
+
+Create a folder:
+
+```text
+github_app_scanner/
+    __init__.py
+    api.py
+    scanner.py
+    cli.py
