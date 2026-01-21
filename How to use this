@@ -1,0 +1,12 @@
+1. Create the repo on GitHub (empty).
+2. Locally:
+
+'''bash
+git clone https://github.com/<your-username>/github-profile-app-scanner.git
+cd github-profile-app-scanner
+
+# Add the files above into this folder.
+pip install -r requirements.txt
+
+export GITHUB_TOKEN=YOUR_TOKEN   # or pass --token
+python -m github_app_scanner
