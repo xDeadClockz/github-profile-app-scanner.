@@ -1,0 +1,17 @@
+"""optional if you want modern packaging"""
+
+
+[project]
+name = "github-profile-app-scanner"
+version = "0.1.0"
+description = "Simple Python CLI to list and scan GitHub app installations for a user."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31.0"
+]
+
+[project.scripts]
+github-app-scan = "github_app_scanner.cli:main"
+
+"""If you prefer requirements.txt skip this file and download the requirements file and all states requirement pckgs involved"""
